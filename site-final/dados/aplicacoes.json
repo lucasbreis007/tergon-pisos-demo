@@ -1,0 +1,275 @@
+{
+  "_leia_me": "Uma pagina por aplicacao, na ordem problema -> beneficio -> prova. 'beneficio' sai literal de site-antes/servicos.html. 'obra' sai literal de site-antes/obras.html. Aplicacao sem obra no material termina no beneficio: deixe 'obra' como null e nenhuma prova e escrita.",
+  "aplicacoes": [
+    {
+      "slug": "poliuretano-cimenticio",
+      "nome": "Poliuretano cimentício",
+      "espessura": "6 a 9 mm",
+      "title": "Piso em poliuretano cimentício, 6 a 9 mm | Tergon Pisos",
+      "description": "Piso em poliuretano cimentício de 6 a 9 mm para choque térmico e lavagem com água quente. Indicado para indústria de alimentos e frigoríficos. Indaiatuba/SP.",
+      "h1": "Piso em poliuretano cimentício para lavagem com água quente",
+      "resumo": "Para áreas onde o piso é lavado com água quente e sofre variação brusca de temperatura.",
+      "problema": [
+        "Lavagem com água quente submete o piso a uma variação de temperatura que o concreto e o revestimento não absorvem da mesma forma. O concreto se expande e se contrai num ritmo; um revestimento fino, em outro. A cada ciclo, a diferença se acumula na linha de colagem entre os dois.",
+        "Quando essa diferença passa do que a aderência suporta, o revestimento se solta do substrato. O sintoma aparece primeiro nas áreas de maior temperatura e perto dos ralos, e costuma voltar sempre no mesmo lugar depois de cada reparo."
+      ],
+      "beneficio_frase": "Sistema de 6 a 9 mm que suporta choque térmico e lavagem com água quente. Indicado para indústria de alimentos e frigoríficos.",
+      "beneficio": [
+        "O poliuretano cimentício tem coeficiente de dilatação térmica próximo ao do concreto. Em vez de resistir ao movimento do substrato, ele acompanha esse movimento, e é essa proximidade que explica por que o sistema aguenta ciclos de lavagem quente que descolam revestimentos mais rígidos.",
+        "A espessura também trabalha a favor: um sistema de 6 a 9 mm distribui o esforço numa camada maior, em vez de concentrá-lo numa película fina."
+      ],
+      "obra": {
+        "numero": "4 anos sem necessidade de manutenção",
+        "titulo": "Frigorífico em Amparo/SP",
+        "texto": "O cliente realizava lavagem com água a 85 °C três vezes ao dia e o piso epóxi existente descolava a cada 18 meses. Foi executado sistema de poliuretano cimentício de 9 mm. O piso está em operação há 4 anos sem necessidade de manutenção. Obra executada em 6 dias.",
+        "ficha": [
+          [
+            "Sistema",
+            "Poliuretano cimentício"
+          ],
+          [
+            "Espessura",
+            "9 mm"
+          ],
+          [
+            "Lavagem",
+            "85 °C, 3× ao dia"
+          ],
+          [
+            "Prazo de obra",
+            "6 dias"
+          ],
+          [
+            "Em operação",
+            "4 anos"
+          ],
+          [
+            "Manutenção",
+            "nenhuma"
+          ]
+        ]
+      },
+      "artigo_relacionado": "piso-descola-lavagem-agua-quente",
+      "veja_tambem": [
+        "antiderrapante-multicamada",
+        "epoxi-autonivelante"
+      ],
+      "foto": "pilares",
+      "icone": [
+        "M12 10c2.3 2.4 3.4 4.1 3.4 5.6a3.4 3.4 0 0 1-6.8 0c0-1.5 1.1-3.2 3.4-5.6Z",
+        "M8.4 6.8c1-.8 1-1.8 0-2.6M12 6.8c1-.8 1-1.8 0-2.6M15.6 6.8c1-.8 1-1.8 0-2.6"
+      ],
+      "espessura_mm": [
+        6,
+        9
+      ]
+    },
+    {
+      "slug": "antiderrapante-multicamada",
+      "nome": "Antiderrapante multicamada",
+      "espessura": "3 a 5 mm",
+      "title": "Piso antiderrapante multicamada, 3 a 5 mm | Tergon Pisos",
+      "description": "Piso antiderrapante multicamada de 3 a 5 mm com agregado, para áreas com presença de água, gordura ou óleo. Indaiatuba/SP.",
+      "h1": "Piso antiderrapante multicamada para áreas com água, gordura ou óleo",
+      "resumo": "Para áreas onde o piso fica molhado, engordurado ou oleoso e o risco é escorregamento.",
+      "problema": [
+        "Um piso liso só é seguro enquanto está seco. Basta um filme de água, gordura ou óleo para que o contato entre a sola e a superfície perca atrito, e o escorregamento passa a depender de quem está passando, não do piso.",
+        "Em cozinha industrial, área de processo úmido e lavagem, esse filme é permanente durante o turno. Lavar com mais frequência não resolve: o problema não é a sujeira, é a textura da superfície."
+      ],
+      "beneficio_frase": "Sistema de 3 a 5 mm com agregado, indicado para áreas com presença de água, gordura ou óleo.",
+      "beneficio": [
+        "O sistema multicamada incorpora agregado à superfície. Em vez de um acabamento contínuo e liso, o piso passa a ter uma microtextura que mantém pontos de contato mesmo com líquido presente.",
+        "A quantidade e o tamanho do agregado mudam duas coisas ao mesmo tempo: quanto mais agressiva a textura, maior o atrito e mais difícil a limpeza. É um ajuste, não um máximo, e ele é definido pelo que cai no piso e pela forma de higienização da área."
+      ],
+      "obra": {
+        "numero": "7 acidentes em 12 meses, nenhum nos 14 meses seguintes",
+        "titulo": "Cozinha industrial em Jundiaí/SP",
+        "texto": "Refeitório que serve 1.200 refeições por dia registrava 7 acidentes por escorregamento em 12 meses. Executado piso antiderrapante multicamada nas áreas de cocção e lavagem. Nos 14 meses seguintes não houve novo acidente.",
+        "ficha": [
+          [
+            "Sistema",
+            "Antiderrapante multicamada"
+          ],
+          [
+            "Áreas",
+            "cocção e lavagem"
+          ],
+          [
+            "Refeições por dia",
+            "1.200"
+          ],
+          [
+            "Antes",
+            "7 acidentes em 12 meses"
+          ],
+          [
+            "Depois",
+            "nenhum em 14 meses"
+          ]
+        ]
+      },
+      "artigo_relacionado": "piso-escorregadio-agua-gordura-oleo",
+      "veja_tambem": [
+        "poliuretano-cimenticio",
+        "demarcacao-de-areas"
+      ],
+      "foto": "corredor",
+      "icone": [
+        "M12 3.6c2.7 3 4.1 5.2 4.1 7a4.1 4.1 0 0 1-8.2 0c0-1.8 1.4-4 4.1-7Z",
+        "M3.5 18.5h17",
+        "M7 21.5l2.2-2.2M12.4 21.5l2.2-2.2"
+      ],
+      "espessura_mm": [
+        3,
+        5
+      ]
+    },
+    {
+      "slug": "epoxi-autonivelante",
+      "nome": "Epóxi autonivelante",
+      "espessura": "2 a 3 mm",
+      "title": "Piso epóxi autonivelante, 2 a 3 mm, sem juntas | Tergon Pisos",
+      "description": "Piso epóxi autonivelante de 2 a 3 mm, com acabamento liso e sem juntas, para ambientes que exigem limpeza e tráfego leve a médio. Indaiatuba/SP.",
+      "h1": "Piso epóxi autonivelante, liso e sem juntas",
+      "resumo": "Para ambientes que exigem limpeza e têm tráfego leve a médio.",
+      "problema": [
+        "Toda junta é uma fresta. Num piso de placas ou num contrapiso trincado, a junta recolhe resíduo, retém umidade e resiste à limpeza, porque a escova não alcança o fundo dela. O mesmo vale para o encontro entre piso e parede, onde o canto vivo acumula o que a lavagem empurra.",
+        "Em ambiente que passa por auditoria de higiene, esse é um ponto examinado de perto: o resíduo nas juntas costuma ser o apontamento que aparece antes de qualquer outro."
+      ],
+      "beneficio_frase": "Sistema de 2 a 3 mm com acabamento liso e sem juntas. Indicado para ambientes que exigem limpeza e tráfego leve a médio.",
+      "beneficio": [
+        "O autonivelante é aplicado como uma camada contínua: não há placa, não há rejunte e não há fresta onde o resíduo se aloje. A superfície lisa e fechada é limpa com a própria passagem da água.",
+        "O encontro entre piso e parede pode receber rodapé em meia-cana, que substitui o canto vivo por uma curva. A curva não acumula, e a limpeza percorre piso e rodapé num movimento só."
+      ],
+      "obra": {
+        "numero": "Aprovado na auditoria seguinte, sem apontamento referente ao piso",
+        "titulo": "Indústria farmacêutica em Hortolândia/SP",
+        "texto": "O cliente havia sido reprovado em auditoria por acúmulo de resíduo nas juntas do piso. Executado autonivelante sem juntas em 1.800 m² com rodapé em meia-cana. O cliente foi aprovado na auditoria seguinte sem apontamento referente ao piso.",
+        "ficha": [
+          [
+            "Área",
+            "1.800 m²"
+          ],
+          [
+            "Acabamento",
+            "sem juntas"
+          ],
+          [
+            "Rodapé",
+            "em meia-cana"
+          ],
+          [
+            "Antes",
+            "reprovado por resíduo nas juntas"
+          ],
+          [
+            "Depois",
+            "aprovado, sem apontamento no piso"
+          ]
+        ]
+      },
+      "artigo_relacionado": "residuo-nas-juntas-do-piso",
+      "veja_tambem": [
+        "poliuretano-cimenticio",
+        "recuperacao-de-pisos"
+      ],
+      "foto": "doca",
+      "icone": [
+        "M3 18.5h18",
+        "M12 3.5l1.5 3.7 3.7 1.5-3.7 1.5L12 14l-1.5-3.8L6.8 8.7l3.7-1.5Z"
+      ],
+      "espessura_mm": [
+        2,
+        3
+      ]
+    },
+    {
+      "slug": "protecao-quimica",
+      "nome": "Revestimento de proteção química",
+      "espessura": null,
+      "title": "Proteção química para bacias de contenção | Tergon Pisos",
+      "description": "Revestimento de proteção química para bacias de contenção e áreas com produto agressivo. Tergon Pisos Industriais, Indaiatuba/SP.",
+      "h1": "Revestimento de proteção química para bacias de contenção",
+      "resumo": "Para bacias de contenção e áreas onde o piso recebe produto agressivo.",
+      "problema": [
+        "Concreto é poroso e alcalino. Produto ácido ataca a pasta de cimento; produto alcalino concentrado e solvente também encontram caminho pelos poros. O que se vê na superfície (mancha, desagregação, agregado exposto) costuma ser a parte visível de um ataque que já desceu alguns milímetros.",
+        "Numa bacia de contenção o papel do piso muda: ele não é só superfície de trabalho, é a barreira que precisa segurar o produto até a remoção. Uma bacia que absorve o que deveria conter deixa de cumprir a função para a qual foi construída."
+      ],
+      "beneficio_frase": "Proteção para bacias de contenção e áreas com produto agressivo.",
+      "beneficio": [
+        "O revestimento fecha a porosidade do concreto e interpõe uma camada quimicamente estável entre o produto e o substrato. O que antes penetrava passa a ficar na superfície, onde pode ser recolhido.",
+        "A escolha da resina depende do produto, da concentração e do tempo que ele fica em contato com o piso: a mesma área pode exigir sistemas diferentes se o que derrama muda. Por isso a especificação parte da relação de produtos manipulados, não do tamanho da área."
+      ],
+      "obra": null,
+      "artigo_relacionado": null,
+      "veja_tambem": [
+        "poliuretano-cimenticio",
+        "recuperacao-de-pisos"
+      ],
+      "foto": "equipe",
+      "icone": [
+        "M12 2.8c1.9 2.1 2.9 3.6 2.9 4.9a2.9 2.9 0 0 1-5.8 0c0-1.3 1-2.8 2.9-4.9Z",
+        "M4 12.5v4.6a3.4 3.4 0 0 0 3.4 3.4h9.2a3.4 3.4 0 0 0 3.4-3.4v-4.6"
+      ]
+    },
+    {
+      "slug": "demarcacao-de-areas",
+      "nome": "Demarcação de áreas",
+      "espessura": null,
+      "title": "Demarcação de áreas: faixas, corredores e sinalização | Tergon",
+      "description": "Demarcação de áreas em piso industrial: faixas, corredores e sinalização conforme normas de segurança. Tergon Pisos Industriais, Indaiatuba/SP.",
+      "h1": "Demarcação de áreas: faixas, corredores e sinalização",
+      "resumo": "Para separar circulação de pessoas e de equipamentos e sinalizar a área conforme norma.",
+      "problema": [
+        "Num galpão sem demarcação, o trajeto da empilhadeira e o trajeto de quem anda a pé são o mesmo espaço, negociado a cada passagem. A separação existe no procedimento, mas não no chão, e é no chão que a decisão é tomada, em fração de segundo.",
+        "Demarcação improvisada em fita adesiva resolve por pouco tempo: ela descola nas bordas, acumula sujeira embaixo e some sob o tráfego justamente nos pontos de maior uso, que são os que mais precisavam dela."
+      ],
+      "beneficio_frase": "Faixas, corredores e sinalização conforme normas de segurança.",
+      "beneficio": [
+        "A faixa executada no próprio piso não tem borda para descolar nem degrau para acumular resíduo, e resiste à passagem de roda e à lavagem.",
+        "Faixas de circulação, corredores, áreas de carga, posições de porta-paletes e sinalização de risco passam a ocupar um lugar fixo e legível, que não depende de quem está no turno."
+      ],
+      "obra": null,
+      "artigo_relacionado": null,
+      "veja_tambem": [
+        "antiderrapante-multicamada",
+        "epoxi-autonivelante"
+      ],
+      "foto": "setas",
+      "icone": [
+        "M12 16.5V4.5",
+        "M7.8 8.7 12 4.5l4.2 4.2",
+        "M3 20.5h4.2M9.9 20.5h4.2M16.8 20.5H21"
+      ]
+    },
+    {
+      "slug": "recuperacao-de-pisos",
+      "nome": "Recuperação de pisos",
+      "espessura": null,
+      "title": "Recuperação de pisos danificados, juntas e cantos | Tergon Pisos",
+      "description": "Recuperação de pisos industriais danificados, juntas e cantos. Tergon Pisos Industriais, Indaiatuba/SP.",
+      "h1": "Recuperação de pisos danificados, juntas e cantos",
+      "resumo": "Para pisos que ainda servem, mas perderam junta, canto ou trecho de superfície.",
+      "problema": [
+        "O desgaste raramente é uniforme. O piso continua inteiro na maior parte da área e falha em pontos específicos: a borda da junta que lascou sob a roda, o canto que quebrou no encontro com a parede, o trecho em frente à doca onde o tráfego é constante.",
+        "Esses pontos se agravam sozinhos. Uma junta com a borda quebrada aumenta o impacto da roda na passagem seguinte, e o que era uma lasca vira um sulco. Trocar o piso inteiro por causa deles custa caro e para a operação; deixar como está transfere o custo para a manutenção do equipamento."
+      ],
+      "beneficio_frase": "Recuperação de pisos danificados, juntas e cantos.",
+      "beneficio": [
+        "A recuperação trata o ponto que falhou em vez da área inteira: a junta é reperfilada, o canto é reconstituído e o trecho desgastado recebe nova superfície, sem demolir o que ainda cumpre a função.",
+        "O trabalho parte de um diagnóstico do que causou a falha. Recompor a mesma junta com o mesmo perfil, sob o mesmo tráfego, devolve o problema no mesmo prazo."
+      ],
+      "obra": null,
+      "artigo_relacionado": null,
+      "veja_tambem": [
+        "epoxi-autonivelante",
+        "protecao-quimica"
+      ],
+      "foto": "linha",
+      "icone": [
+        "M3 19.5h18",
+        "M9.6 19.5 11.8 14l-3.2-2.1 4.1-3.6-1.5-3.3"
+      ]
+    }
+  ]
+}

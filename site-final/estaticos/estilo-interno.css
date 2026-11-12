@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Tergon — páginas internas (aplicações e blog)
+
+   Reaproveita estilo.css: mesma fonte Archivo, mesma paleta, mesmo
+   acabamento fosco levemente arredondado. Aqui ficam só o que as páginas
+   de leitura precisam a mais: migalhas, capa, blocos de texto e cartões.
+   ========================================================================== */
+
+body.interna { background: var(--concreto); }
+
+/* ------------------------------------------------------------- migalhas --- */
+
+.migalhas { margin: 0 0 1.5rem; font-size: 1rem; }
+.migalhas ol { display: flex; flex-wrap: wrap; gap: .4rem .6rem; }
+.migalhas li { display: flex; align-items: center; gap: .6rem; color: var(--claro-fraco); }
+.migalhas li + li::before { content: "/"; color: rgba(242, 246, 248, .4); }
+.migalhas a { color: var(--claro-fraco); text-decoration: none; border-bottom: 1px solid rgba(242, 246, 248, .32); }
+.migalhas a:hover { color: #fff; border-bottom-color: var(--demarcacao); }
+.migalhas [aria-current] { color: var(--claro-forte); }
+
+/* ----------------------------------------------------------------- capa --- */
+
+.capa {
+  position: relative; overflow: hidden;
+  background: var(--breu); color: var(--claro-forte);
+  padding: 7.5rem 0 clamp(2.5rem, 5vw, 4rem);
+  border-bottom: 3px solid var(--demarcacao);
+}
+
+/* a propria foto, minuscula e ja suavizada na geracao, ampliada e escurecida */
+.capa-fundo {
+  position: absolute; inset: -4%;
+  background-image: var(--mini); background-size: cover; background-position: center;
+}
+.capa-fundo::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(16, 38, 54, .82), rgba(16, 38, 54, .91));
+}
+
+.capa-in { position: relative; display: grid; gap: clamp(1.75rem, 4vw, 3.25rem); align-items: center; }
+@media (min-width: 900px) {
+  .capa-in { grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); }
+}
+
+.capa h1 {
+  font-size: clamp(1.9rem, 4.2vw, 3.1rem);
+  font-weight: 800; letter-spacing: -0.035em; line-height: 1.05;
+  max-width: 20ch; text-wrap: balance;
+}
+.capa--simples { padding-bottom: clamp(3rem, 7vw, 5rem); }
+.erro-codigo {
+  margin: 0 0 .6rem; font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 800; letter-spacing: -0.05em; line-height: 1; color: var(--demarcacao);
+}
+.erro-acao { margin: 2rem 0 0; }
+
+.capa-resumo {
+  margin: 1.1rem 0 0; max-width: 52ch;
+  font-size: clamp(1.0625rem, 1.8vw, 1.25rem); color: var(--claro-fraco);
+}
+
+/* corte do sistema, ou o icone grande da triagem quando nao ha espessura */
+.capa-grafico { display: flex; align-items: center; gap: 1.1rem; margin-top: 1.7rem; }
+.corte { flex: none; display: block; }
+.capa-mm { margin: 0; font-weight: 700; font-size: 1.0625rem; color: var(--demarcacao); }
+.icone-grande {
+  flex: none; display: block;
+  fill: none; stroke: var(--demarcacao); stroke-width: 1.5;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+
+/* foto nitida com borda fina de degrade metalico, e o reflexo embaixo */
+.capa-figura { margin: 0; display: flex; flex-direction: column; }
+.capa-moldura {
+  display: block; padding: 2px; border-radius: calc(var(--raio) + 2px);
+  background: linear-gradient(148deg,
+    rgba(255, 255, 255, .78) 0%, rgba(255, 255, 255, .14) 26%,
+    rgba(8, 20, 30, .55) 54%, rgba(255, 255, 255, .30) 78%,
+    rgba(255, 255, 255, .62) 100%);
+}
+.capa-moldura img { display: block; width: 100%; height: auto; border-radius: var(--raio); }
+
+.capa-reflexo {
+  display: block; width: 100%; height: clamp(24px, 4vw, 52px);
+  margin-top: 3px; border-radius: 0 0 var(--raio) var(--raio);
+  background-image: var(--mini); background-size: cover; background-position: center bottom;
+  transform: scaleY(-1); opacity: .4;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, .9) 100%);
+          mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, .9) 100%);
+}
+
+/* --------------------------------------------------------------- blocos --- */
+
+.bloco { padding-block: clamp(3rem, 7vw, 5rem); }
+.bloco--claro { background: var(--concreto); color: var(--tinta); }
+.bloco--sem-topo { padding-top: 0; }
+.bloco--escuro { background: var(--breu); color: var(--claro-forte); }
+
+/* a div tem as classes wrap e pagina: o wrap centra a faixa de 1180, e a
+   pagina limita so a medida do texto — senao a coluna de leitura ficava
+   centralizada enquanto a capa ficava a esquerda, parecendo defeito */
+.pagina { max-width: var(--coluna); }
+.pagina > * { max-width: 46rem; }
+.pagina > .cartoes { max-width: none; }
+.pagina h2 {
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+  margin-bottom: 1.1rem; max-width: 24ch;
+}
+.pagina h2 + p, .pagina h2 + ul { margin-top: 0; }
+.pagina p { font-size: 1.125rem; line-height: 1.7; color: var(--escuro-fraco); max-width: 42rem; }
+.pagina .pagina-h2-meio { margin-top: 2.5rem; }
+
+.pagina ul.lista-texto { margin: 0 0 1.1rem; display: grid; gap: .6rem; }
+.pagina ul.lista-texto li {
+  position: relative; padding-left: 1.5rem;
+  font-size: 1.125rem; line-height: 1.6; color: var(--escuro-fraco);
+}
+.pagina ul.lista-texto li::before {
+  content: ""; position: absolute; left: 0; top: .66em;
+  width: .6rem; height: 3px; border-radius: 2px; background: var(--demarcacao);
+}
+
+/* frase literal do material da empresa, destacada */
+.frase-chave {
+  margin: 0 0 1.6rem; padding: 1.1rem 1.3rem;
+  border-left: 3px solid var(--demarcacao);
+  border-radius: 0 var(--raio) var(--raio) 0;
+  background: var(--concreto-2);
+  font-size: 1.1875rem !important; font-weight: 700;
+  color: var(--tinta) !important; line-height: 1.5;
+}
+
+/* ---------------------------------------------------------------- prova --- */
+
+.prova { background: var(--breu); color: var(--claro-forte); padding-block: clamp(3rem, 7vw, 5rem); }
+.prova-in { display: grid; gap: clamp(2rem, 4vw, 3rem); align-items: start; }
+.prova h2 { font-size: clamp(1.5rem, 2.8vw, 2.1rem); margin-bottom: 1.5rem; }
+.prova-num {
+  margin: 0 0 .8rem; font-size: clamp(1.4rem, 2.6vw, 2rem);
+  font-weight: 800; letter-spacing: -0.03em; line-height: 1.15;
+  color: var(--demarcacao); text-wrap: balance;
+}
+.prova-local { font-size: 1.0625rem; font-weight: 600; color: var(--claro-forte); margin-bottom: .6rem; }
+.prova-texto { font-size: 1.0625rem; color: var(--claro-fraco); line-height: 1.65; max-width: 42rem; }
+
+.prova-ficha { margin: 0; }
+.prova-ficha > div {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1.25rem;
+  padding: .85rem 0; border-top: 1px solid rgba(242, 246, 248, .16);
+}
+.prova-ficha > div:last-child { border-bottom: 1px solid rgba(242, 246, 248, .16); }
+.prova-ficha dt { font-size: 1rem; color: var(--claro-fraco); white-space: nowrap; }
+.prova-ficha dd { margin: 0; font-weight: 700; text-align: right; }
+
+@media (min-width: 900px) { .prova-in { grid-template-columns: minmax(0, 1.4fr) minmax(16rem, .9fr); } }
+
+/* -------------------------------------------------------------- cartões --- */
+
+.cartoes { display: grid; gap: 4px; }
+.cartoes li { display: block; }
+.cartoes a {
+  display: block; height: 100%;
+  padding: 1.25rem 1.35rem;
+  background: var(--concreto-2); border-radius: var(--raio);
+  border-left: 3px solid var(--demarcacao);
+  text-decoration: none; color: var(--tinta);
+  transition: background .25s;
+}
+.cartoes a:hover { background: #EDEFEC; }
+.cartoes .cartao-titulo { display: block; font-weight: 700; font-size: 1.1875rem; letter-spacing: -0.02em; line-height: 1.25; }
+.cartoes .cartao-sub { display: block; margin-top: .45rem; font-size: 1.0625rem; color: var(--escuro-fraco); line-height: 1.5; }
+.cartoes .cartao-mm { display: inline-block; margin-top: .6rem; font-weight: 700; font-size: 1rem; color: var(--tinta); }
+
+@media (min-width: 680px) { .cartoes { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 980px) { .cartoes--largo { grid-template-columns: repeat(3, 1fr); } }
+
+/* ------------------------------------------------------------------ cta --- */
+
+.cta { position: relative; background: var(--breu); color: var(--claro-forte); padding-block: clamp(3rem, 7vw, 4.5rem); }
+.cta .demarcacao { position: absolute; inset: 0 0 auto; height: 14px;
+  background: repeating-linear-gradient(45deg, var(--demarcacao) 0 16px, var(--breu) 16px 32px); }
+.cta h2 { font-size: clamp(1.5rem, 2.8vw, 2.1rem); margin-bottom: 1.5rem; max-width: 22ch; }
+.cta-canais { display: flex; flex-direction: column; align-items: flex-start; gap: .7rem; }
+
+@media (min-width: 540px) { .cta-canais { flex-direction: row; flex-wrap: wrap; align-items: center; } }
+
+/* ----------------------------------------------------- rodapé ampliado --- */
+
+.rodape-colunas { display: grid; gap: 2rem; margin-bottom: 2rem; }
+.rodape-colunas h3 { font-size: 1rem; color: var(--demarcacao); margin-bottom: .75rem; letter-spacing: 0; }
+.rodape-colunas ul { display: grid; gap: .45rem; }
+.rodape-colunas a { color: var(--claro-fraco); text-decoration: none; }
+.rodape-colunas a:hover { color: #fff; text-decoration: underline; }
+.rodape-contato p { margin: 0 0 .4rem; }
+.rodape-contato a { color: var(--claro-fraco); }
+
+@media (min-width: 760px) { .rodape-colunas { grid-template-columns: repeat(3, 1fr); } }

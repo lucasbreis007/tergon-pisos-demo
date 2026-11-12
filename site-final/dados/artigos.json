@@ -1,0 +1,228 @@
+{
+  "_leia_me": "Tres artigos de topo de funil sobre problemas que o gerente de manutencao reconhece. O texto tecnico geral foi escrito a partir de fontes externas, com palavras proprias; as fontes estao em fontes-conteudo.md, na raiz do projeto, fora da pasta do site. Os unicos numeros sao os das obras da Tergon, literais.",
+  "artigos": [
+    {
+      "slug": "piso-descola-lavagem-agua-quente",
+      "title": "Por que o piso descola depois da lavagem com água quente | Tergon",
+      "description": "O que faz um piso resinado se soltar do concreto em área de lavagem quente, por que o reparo volta a falhar no mesmo lugar e o que muda a resposta.",
+      "h1": "Por que o piso descola depois da lavagem com água quente",
+      "resumo": "O descolamento em área de lavagem quente raramente é falha de aplicação: é diferença de dilatação entre o revestimento e o concreto.",
+      "corpo": [
+        {
+          "tipo": "p",
+          "texto": "Em frigorífico, laticínio e área de processo úmido o piso é refeito, funciona por um tempo e volta a soltar, no mesmo lugar e mais ou menos no mesmo prazo. A causa costuma não estar na mão de obra nem no lote de material."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a água quente faz com o piso"
+        },
+        {
+          "tipo": "p",
+          "texto": "Lavar com água quente impõe ao piso uma variação de temperatura em poucos minutos. O concreto responde se expandindo, e volta a se contrair quando esfria. O revestimento colado sobre ele faz o mesmo, na sua própria medida."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando os dois materiais se movem em ritmos diferentes, a diferença se acumula na linha de colagem. Cada ciclo de lavagem soma um pouco de tensão nessa interface. O descolamento acontece quando a tensão acumulada passa do que a aderência suporta."
+        },
+        {
+          "tipo": "p",
+          "texto": "Isso explica por que o problema aparece primeiro perto dos ralos e nos pontos de maior temperatura, e por que ele é cíclico: o prazo até a falha é, na prática, o número de ciclos que a aderência aguenta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o reparo volta a falhar"
+        },
+        {
+          "tipo": "p",
+          "texto": "Refazer o trecho descolado com o mesmo sistema recoloca o mesmo par de materiais sob o mesmo regime de lavagem. A conta recomeça do zero, mas é a mesma conta, e por isso o prazo até a próxima falha costuma ser parecido com o anterior."
+        },
+        {
+          "tipo": "p",
+          "texto": "É também por isso que aumentar a espessura do mesmo sistema ajuda pouco: o que decide não é a resistência da camada, é a compatibilidade de movimento entre ela e o substrato."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que muda a resposta"
+        },
+        {
+          "tipo": "p",
+          "texto": "A literatura técnica de pisos resinados aponta uma saída conhecida para esse caso: usar um sistema cujo coeficiente de dilatação térmica seja próximo ao do concreto. O poliuretano cimentício se encaixa nessa descrição: acompanha o movimento do substrato em vez de resistir a ele."
+        },
+        {
+          "tipo": "p",
+          "texto": "A espessura entra como consequência, não como causa: sistemas desse tipo costumam ser aplicados em camadas de alguns milímetros, que distribuem o esforço em vez de concentrá-lo numa película fina. A medição no local e a ficha técnica do fabricante dão a espessura exata de cada obra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que perguntar antes de refazer"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Qual a temperatura real da água na lavagem, e quantas vezes por dia?",
+            "A falha se repete nos mesmos pontos ou é espalhada?",
+            "Quanto tempo durou cada reparo anterior?",
+            "O sistema especificado foi escolhido pela temperatura de lavagem ou pelo acabamento?"
+          ]
+        },
+        {
+          "tipo": "p",
+          "texto": "As três primeiras respostas costumam estar na própria manutenção, e já separam um problema de dilatação de um problema de aplicação."
+        }
+      ],
+      "obra": {
+        "numero": "4 anos sem necessidade de manutenção",
+        "titulo": "Frigorífico em Amparo/SP",
+        "texto": "O cliente realizava lavagem com água a 85 °C três vezes ao dia e o piso epóxi existente descolava a cada 18 meses. Foi executado sistema de poliuretano cimentício de 9 mm. O piso está em operação há 4 anos sem necessidade de manutenção."
+      },
+      "aplicacao_relacionada": "poliuretano-cimenticio",
+      "foto": "galpao"
+    },
+    {
+      "slug": "residuo-nas-juntas-do-piso",
+      "title": "Resíduo nas juntas do piso: o ponto que reprova auditoria | Tergon",
+      "description": "Por que junta e canto vivo são os primeiros pontos olhados numa auditoria de higiene, e o que muda num piso sem juntas com rodapé em meia-cana.",
+      "h1": "Resíduo acumulado nas juntas: o ponto que reprova o piso em auditoria",
+      "resumo": "Junta e canto vivo são frestas. Numa auditoria de higiene, é por elas que o exame começa.",
+      "corpo": [
+        {
+          "tipo": "p",
+          "texto": "Quem já acompanhou uma auditoria de higiene conhece a cena: o auditor se agacha, passa a mão na junta entre as placas e no encontro do piso com a parede. Não é implicância. Esses dois pontos concentram o risco que o resto da área não tem."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a junta é o ponto crítico"
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma junta é uma fresta estreita e funda. A escova alcança a borda, não o fundo; a água entra e demora a sair. O que fica ali é matéria orgânica em ambiente úmido e protegido, exatamente a condição que a limpeza deveria eliminar."
+        },
+        {
+          "tipo": "p",
+          "texto": "A orientação técnica para áreas de alimento é consistente nesse ponto: superfície contínua e impermeável, porque emenda, junta e linha de rejunte são lugares onde microrganismo se instala. Em piso de placa, a quantidade de metros lineares de junta por metro quadrado de área dá a dimensão do problema."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O canto vivo entre piso e parede"
+        },
+        {
+          "tipo": "p",
+          "texto": "O encontro em ângulo reto entre piso e parede tem a mesma lógica: a lavagem empurra o resíduo para o canto e ele fica onde a escova não encosta. É por isso que a recomendação para área de processo é substituir o ângulo por uma curva: o rodapé em meia-cana."
+        },
+        {
+          "tipo": "p",
+          "texto": "A curva faz duas coisas ao mesmo tempo: não acumula, e permite que a limpeza percorra piso e rodapé num movimento contínuo, sem mudança de ferramenta. Por isso canto arredondado ou vedado entre piso e parede é item recorrente nas especificações de área de manipulação de alimento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o piso contínuo muda"
+        },
+        {
+          "tipo": "p",
+          "texto": "Um sistema autonivelante é aplicado como camada única: não existe placa, rejunte nem fresta. A superfície fechada é limpa pela própria passagem da água, e o rodapé em meia-cana elimina o canto."
+        },
+        {
+          "tipo": "p",
+          "texto": "Vale dizer o que isso não resolve. Piso contínuo não substitui procedimento de limpeza, não corrige caimento mal executado e não compensa ralo mal posicionado. Ele retira do jogo uma classe específica de apontamento: a que vem de fresta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Antes da próxima auditoria"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Quantos metros lineares de junta existem na área de processo?",
+            "O encontro entre piso e parede é canto vivo ou curva?",
+            "Os apontamentos anteriores sobre piso citavam junta, canto ou superfície?",
+            "A área seca e a área úmida têm o mesmo tipo de acabamento?"
+          ]
+        },
+        {
+          "tipo": "p",
+          "texto": "O histórico de apontamentos é o melhor indicador: se junta e canto se repetem de auditoria em auditoria, o problema é de geometria do piso, não de frequência de limpeza."
+        }
+      ],
+      "obra": {
+        "numero": "Aprovado na auditoria seguinte, sem apontamento referente ao piso",
+        "titulo": "Indústria farmacêutica em Hortolândia/SP",
+        "texto": "O cliente havia sido reprovado em auditoria por acúmulo de resíduo nas juntas do piso. Executado autonivelante sem juntas em 1.800 m² com rodapé em meia-cana. O cliente foi aprovado na auditoria seguinte sem apontamento referente ao piso."
+      },
+      "aplicacao_relacionada": "epoxi-autonivelante",
+      "foto": "pilares"
+    },
+    {
+      "slug": "piso-escorregadio-agua-gordura-oleo",
+      "title": "Piso escorregadio onde há água, gordura ou óleo | Tergon",
+      "description": "Por que lavar mais não resolve piso escorregadio, como o agregado muda o atrito e qual é a troca entre aderência e facilidade de limpeza.",
+      "h1": "Piso escorregadio onde há água, gordura ou óleo",
+      "resumo": "Piso liso é seguro enquanto está seco. Onde há filme de líquido permanente, a textura é que decide.",
+      "corpo": [
+        {
+          "tipo": "p",
+          "texto": "Quando o escorregamento vira estatística numa área, a primeira reação costuma ser aumentar a frequência de limpeza e colocar placa de aviso. Em área de processo úmido isso ajuda pouco, porque o filme de líquido não é sujeira acumulada: ele se forma de novo durante o turno inteiro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que acontece entre a sola e o piso"
+        },
+        {
+          "tipo": "p",
+          "texto": "O atrito depende do contato real entre a sola e a superfície. Num piso liso e seco, esse contato é amplo. Com um filme de água, gordura ou óleo no meio, parte da sola deixa de tocar o piso e passa a deslizar sobre o líquido."
+        },
+        {
+          "tipo": "p",
+          "texto": "Gordura e óleo agravam o quadro por serem mais viscosos e mais difíceis de deslocar que a água: o filme resiste à pressão do passo em vez de ser expulso por ele."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o agregado muda"
+        },
+        {
+          "tipo": "p",
+          "texto": "A solução corrente em piso industrial é incorporar agregado à superfície, em vez de confiar só no acabamento da resina. O material técnico dos fabricantes é direto nesse ponto: revestimento liso sozinho costuma não alcançar o nível de aderência exigido em área molhada, e o agregado é o recurso usual."
+        },
+        {
+          "tipo": "p",
+          "texto": "A microtextura criada pelo agregado mantém pontos de contato mesmo com líquido presente, e abre caminho para que o filme escape sob a pressão do passo em vez de ficar preso entre sola e piso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A troca que ninguém escapa"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quanto mais agressiva a textura, maior a aderência e mais difícil a limpeza, porque a mesma rugosidade que segura o pé também retém resíduo. Não existe ajuste que maximize as duas coisas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por isso a especificação não parte de um máximo, e sim do que cai naquele piso e de como a área é higienizada. Granulometria e densidade do agregado, e o quanto o acabamento final o encobre, são decididos em conjunto. Os métodos de ensaio de aderência também variam, e as escalas de um método não se convertem diretamente nas de outro. O parâmetro a atender é o que a especificação da obra nomear."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que levantar antes de especificar"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "O que cai no piso: água, gordura, óleo ou mistura?",
+            "A área é lavada com que frequência, e com que equipamento?",
+            "Os acidentes se concentram em pontos específicos ou são espalhados?",
+            "Há diferença entre as áreas seca e úmida, ou o acabamento é o mesmo em toda a planta?"
+          ]
+        },
+        {
+          "tipo": "p",
+          "texto": "O mapa dos pontos onde o escorregamento acontece costuma coincidir com o mapa de onde o líquido se acumula, e é esse cruzamento que define onde a textura precisa mudar."
+        }
+      ],
+      "obra": {
+        "numero": "7 acidentes em 12 meses, nenhum nos 14 meses seguintes",
+        "titulo": "Cozinha industrial em Jundiaí/SP",
+        "texto": "Refeitório que serve 1.200 refeições por dia registrava 7 acidentes por escorregamento em 12 meses. Executado piso antiderrapante multicamada nas áreas de cocção e lavagem. Nos 14 meses seguintes não houve novo acidente."
+      },
+      "aplicacao_relacionada": "antiderrapante-multicamada",
+      "foto": "corredor"
+    }
+  ]
+}

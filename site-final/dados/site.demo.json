@@ -1,0 +1,25 @@
+{
+  "_leia_me": "Camada aplicada por cima de site.json quando se roda 'python gerar.py --demo'. Só as chaves listadas aqui são trocadas; o resto vem de site.json. Serve para publicar a demonstração na internet sem expor contato de ninguém.",
+
+  "dominio": "",
+  "_dominio": "Vazio de propósito: a demonstração não tem domínio próprio. Sem domínio o gerador não escreve canonical, og:url nem sitemap.xml.",
+
+  "dominio_demo": "https://demo-pisos-industriais-lbr.netlify.app",
+  "_dominio_demo": "Endereço da demonstração no Netlify. Serve só para o og:image, que precisa de endereço absoluto para a prévia aparecer. Não gera canonical, og:url nem sitemap: a demonstração continua fora dos buscadores.",
+
+  "telefone": "(00) 00000-0000",
+  "telefone_link": "+000000000000",
+  "whatsapp": "000000000000",
+  "_telefone": "Números inválidos de propósito. O link tel: não disca para ninguém e o wa.me não abre conversa com nenhuma conta.",
+
+  "email": "contato@example.com",
+  "_email": "example.com é reservado pela RFC 2606 para documentação: nunca vai pertencer a ninguém.",
+
+  "endereco_rua": "Rua Exemplo, 1200 — Distrito Industrial",
+  "endereco_linhas": ["Rua Exemplo, 1200", "Distrito Industrial", "Indaiatuba/SP"],
+  "_endereco": "Trocado para um logradouro claramente fictício. O endereço do site normal, embora inventado, era plausível o bastante para coincidir com o de alguém.",
+
+  "aviso_demo": "Site de demonstração. Empresa, dados e contatos fictícios, feito para estudo.",
+  "aviso_imagens": "Imagens do material do curso, usadas com autorização, apenas para fins de estudo.",
+  "_aviso": "As duas linhas do rodapé da demonstração. Só existem nesta camada: no modo normal o gerador não escreve nenhuma das duas, e dist fica sem as duas frases."
+}

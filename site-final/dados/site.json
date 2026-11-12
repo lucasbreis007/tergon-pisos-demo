@@ -1,0 +1,65 @@
+{
+  "_leia_me": "Este e o unico arquivo onde telefone, WhatsApp, e-mail, endereco, menu e rodape existem. Edite aqui, rode 'python gerar.py' e todas as paginas saem atualizadas.",
+
+  "site_nome": "Tergon Pisos Industriais",
+  "marca": "TERGON",
+
+  "dominio": "https://www.tergonpisos.com.br",
+  "_dominio": "TROCAR pelo dominio real antes de publicar. Entra no canonical, no og:url e no sitemap.xml.",
+
+  "og_imagem": {
+    "arquivo": "img/og-pilares.jpg",
+    "largura": 1200,
+    "altura": 630,
+    "alt": "Interior de galpão vazio, com piso cinza uniforme e bases de pilares em amarelo."
+  },
+  "_og_imagem": "Imagem que aparece quando alguém compartilha um link do site. Recorte 1200x630 da foto painel-pilares, em JPEG porque nem todo serviço de pré-visualização lê WebP. O endereço no og:image é absoluto: sem domínio, o gerador não escreve a tag.",
+
+  "telefone": "(19) 99999-0000",
+  "telefone_link": "+5519999990000",
+  "whatsapp": "5519999990000",
+  "_telefone": "TROCAR pelos numeros reais. 'telefone' e o que aparece na tela; 'telefone_link' vai no href tel: com DDI e sem pontuacao; 'whatsapp' vai no link wa.me, so digitos.",
+
+  "email": "contato@tergonpisos.com.br",
+
+  "endereco_rua": "Rua Industrial, 1200 — Distrito Industrial",
+  "endereco_linhas": ["Rua Industrial, 1200", "Distrito Industrial", "Indaiatuba/SP"],
+  "cidade": "Indaiatuba",
+  "uf": "SP",
+  "estados_atendidos": ["São Paulo", "Minas Gerais", "Paraná", "Santa Catarina"],
+
+  "horario_linhas": ["Segunda a sexta", "das 8h às 18h"],
+
+  "menu": [
+    { "rotulo": "Aplicações",   "url": "aplicacoes/" },
+    { "rotulo": "Blog",         "url": "blog/" },
+    { "rotulo": "Espessuras",   "url": "#espessuras", "apenas_home": true },
+    { "rotulo": "Prazos",       "url": "#prazos",     "apenas_home": true },
+    { "rotulo": "Quem executa", "url": "#empresa",    "apenas_home": true },
+    { "rotulo": "Contato",      "url": "#contato",    "apenas_home": true }
+  ],
+
+  "rodape_colunas": [
+    {
+      "titulo": "Aplicações",
+      "links": [
+        { "rotulo": "Poliuretano cimentício",      "url": "aplicacoes/poliuretano-cimenticio.html" },
+        { "rotulo": "Antiderrapante multicamada",  "url": "aplicacoes/antiderrapante-multicamada.html" },
+        { "rotulo": "Epóxi autonivelante",         "url": "aplicacoes/epoxi-autonivelante.html" },
+        { "rotulo": "Proteção química",            "url": "aplicacoes/protecao-quimica.html" },
+        { "rotulo": "Demarcação de áreas",         "url": "aplicacoes/demarcacao-de-areas.html" },
+        { "rotulo": "Recuperação de pisos",        "url": "aplicacoes/recuperacao-de-pisos.html" }
+      ]
+    },
+    {
+      "titulo": "Blog",
+      "links": [
+        { "rotulo": "Piso que descola na lavagem quente", "url": "blog/piso-descola-lavagem-agua-quente.html" },
+        { "rotulo": "Resíduo nas juntas do piso",          "url": "blog/residuo-nas-juntas-do-piso.html" },
+        { "rotulo": "Piso escorregadio",                   "url": "blog/piso-escorregadio-agua-gordura-oleo.html" }
+      ]
+    }
+  ],
+
+  "copyright_ano": "2026"
+}

@@ -1,0 +1,54 @@
+{
+  "_leia_me": "Catalogo das 8 fotos. Cada pagina interna escolhe uma pela chave, no campo 'foto'. O 'alt' descreve so o que se ve: nao liga a foto a um sistema, a uma obra nem a um cliente, e nao usa as palavras 'pintada' nem 'aplicada'.",
+
+  "fotos": {
+    "galpao": {
+      "base": "painel-galpao",
+      "larguras": [800, 1200],
+      "mini": "mini-galpao.webp",
+      "alt": "Interior de galpão industrial vazio, com piso claro que reflete as luminárias do teto."
+    },
+    "pilares": {
+      "base": "painel-pilares",
+      "larguras": [800, 1200],
+      "mini": "mini-pilares.webp",
+      "alt": "Interior de galpão vazio, com piso cinza uniforme e bases de pilares em amarelo."
+    },
+    "corredor": {
+      "base": "painel-corredor",
+      "larguras": [800, 1200],
+      "mini": "mini-corredor.webp",
+      "alt": "Corredor de galpão com uma empilhadeira ao fundo e prateleiras dos dois lados."
+    },
+    "doca": {
+      "base": "painel-doca",
+      "larguras": [800, 1200],
+      "mini": "mini-doca.webp",
+      "alt": "Galpão logístico em tom azulado, com portas de doca ao fundo e um caminhão encostado."
+    },
+    "equipe": {
+      "base": "painel-equipe",
+      "larguras": [800, 1200],
+      "mini": "mini-equipe.webp",
+      "alt": "Trabalhadores de colete refletivo e capacete sobre o piso de um galpão em obra."
+    },
+    "setas": {
+      "base": "painel-setas",
+      "larguras": [800, 1600],
+      "mini": "mini-setas.webp",
+      "alt": "Setas de direção em azul-escuro e uma faixa vermelha larga sobre piso cinza-azulado."
+    },
+    "garagem": {
+      "base": "painel-garagem",
+      "larguras": [800, 1600],
+      "mini": "mini-garagem.webp",
+      "alt": "Garagem de concreto com pilares e vigas em faixas diagonais amarelas e pretas."
+    },
+    "linha": {
+      "base": "painel-linha",
+      "larguras": [800, 1200],
+      "mini": "mini-linha.webp",
+      "alt": "Superfície clara com uma linha amarela na diagonal, junto a uma faixa arredondada branca."
+    }
+  }
+}
