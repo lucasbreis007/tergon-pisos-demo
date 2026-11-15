@@ -1,5 +1,7 @@
 # Tergon Pisos Industriais: site de demonstração
 
+ **English summary:** 12-page demo website for a fictional industrial flooring company, built in a Claude Code course: diagnosis, SEO audit before and after, a Python site generator and deployment on Netlify. [Live demo](https://demo-pisos-industriais-lbr.netlify.app/)
+ 
 Site institucional de uma **empresa fictícia** de pisos industriais, feito do zero a partir de um anúncio antigo, como exercício do curso de Claude Code (Hashtag Treinamentos). O projeto percorre o caminho completo: leitura do cliente, auditoria de SEO, briefing, versões do site, correções e publicação.
 
 > **Aviso:** a Tergon, o telefone, o e-mail e o endereço do site são **fictícios**. Todas as páginas têm `noindex` e o `robots.txt` bloqueia buscadores. O site existe só para estudo e portfólio.
